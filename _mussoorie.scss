@@ -1,0 +1,29 @@
+.mussoorie h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.mussoorie-section {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  background-image: url("../Images/nitin-kumar-aXDQF_MXJ_k-unsplash.jpg");
+  background-size: cover;
+}
+
+.text-content {
+  text-align: justify;
+  padding: 1rem;
+  width: 70%;
+  margin-left: auto;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 800px) {
+  .text-content {
+    width: 100%;
+    margin-left: 0;
+  }
+}

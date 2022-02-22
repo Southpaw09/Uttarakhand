@@ -1,0 +1,30 @@
+.places h2 {
+  text-align: center;
+}
+
+.places-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 5px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  & img {
+    height: 200px;
+    margin-top: 10px;
+    image-rendering: optimizeQuality;
+  }
+}
+
+@media (max-width: 800px) {
+  .places-row {
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+  }
+
+  .card img {
+    height: 400px;
+  }
+}
