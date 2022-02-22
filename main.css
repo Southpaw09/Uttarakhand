@@ -40,7 +40,7 @@
   margin: 20px auto 0 auto;
   padding: 1rem;
   text-align: justify;
-  background-image: url("/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg");
+  background-image: url("../Images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg");
   background-size: cover;
 }
 
@@ -99,7 +99,7 @@
   margin-top: 20px;
   text-align: center;
   width: 100%;
-  background-image: url("/nitin-kumar-aXDQF_MXJ_k-unsplash.jpg");
+  background-image: url("../Images/nitin-kumar-aXDQF_MXJ_k-unsplash.jpg");
   background-size: cover;
 }
 
